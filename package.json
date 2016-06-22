@@ -1,17 +1,17 @@
 {
-  "name": "yaf",
+  "name": "wigo",
   "version": "1.0.0",
-  "description": "Yet Another Fake",
+  "description": "What Is Going On",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonatanpedersen/yaf.git"
+    "url": "git+https://github.com/jonatanpedersen/wigo.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonatanpedersen/yaf/issues"
+    "url": "https://github.com/jonatanpedersen/wigo/issues"
   },
-  "homepage": "https://github.com/jonatanpedersen/yaf#readme",
+  "homepage": "https://github.com/jonatanpedersen/wigo#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
