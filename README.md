@@ -13,9 +13,9 @@ Syntax
 $ wigo port [path] [file]
 ```
 
-port has no default value and is therefore required.
-path is optional and defaults to .
-file is optional and has no default, and will server file for all requests /* not matching an existing file. 
+* port has no default value and is therefore required.
+* path is optional and defaults to .
+* file is optional and has no default, and will server file for all requests /* not matching an existing file. 
 
 
 ## Licence
