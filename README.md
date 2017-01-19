@@ -1,6 +1,8 @@
 # wigo
 What Is Going On? Creates a http server on any port that serves static files from any path and outputs all requests (path, method, headers, body) to the console. Useful for debugging integrations.
 
+[![Build Status](https://travis-ci.org/jonatanpedersen/wigo.svg?branch=master)](https://travis-ci.org/jonatanpedersen/wigo)
+
 ## Install
 ``` bash
 $ npm install wigo -g
@@ -21,7 +23,7 @@ $ wigo port [path] [file]
 ## Licence
 The MIT License (MIT)
 
-Copyright (c) 2016 Jonatan Pedersen https://www.jonatanpedersen.com
+Copyright (c) 2017 [Jonatan Pedersen](https://www.jonatanpedersen.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
