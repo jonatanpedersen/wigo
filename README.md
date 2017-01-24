@@ -10,15 +10,25 @@ $ npm install wigo -g
 
 ## Usage
 
-Syntax
-``` bash
-$ wigo port [path] [file]
 ```
+$ wigo -h
 
-* port has no default value and is therefore required.
-* path is optional and defaults to .
-* file is optional and has no default, and will server file for all requests /* not matching an existing file. 
+WIGO (What Is Going On)
 
+  Web server that serves static files from a directory and outputs all requests
+  to stdout. You can use it to pipe requests to other processes for analysis.
+  This server is meant to help you during development or debugging, and is not
+  intended for use in a production environment.
+
+Options
+
+  -p, --port number    Port to listen on.
+  -d, --dir string     Directory with files.
+  -f, --file number    Default file when a file is not found in the directory.
+  -s, --space string   Space used for JSON.stringify.
+  -h, --help
+
+```
 
 ## Licence
 The MIT License (MIT)
