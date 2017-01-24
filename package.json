@@ -7,6 +7,8 @@
     "url": "git+https://github.com/jonatanpedersen/wigo.git"
   },
   "scripts": {
+    "postversion": "git push && git push --tags",
+    "preversion": "npm test",
     "test": "mocha"
   },
   "author": "Jonatan Pedersen",
