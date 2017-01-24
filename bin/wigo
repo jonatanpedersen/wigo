@@ -1,2 +1,36 @@
 #!/usr/bin/env node
-require('../lib/wigo-cli.js');
+const wigo = require('../lib/wigo');
+const commandLineArgs = require('command-line-args');
+const commandLineUsage = require('command-line-usage');
+
+const optionDefinitions = [
+	{ name: 'port', alias: 'p', type: Number, defaultValue: 6187, defaultOption: true, description: 'Port to listen on.' },
+	{ name: 'dir', alias: 'd', type: String, defaultValue: './', description: 'Directory with files.' },
+	{ name: 'file', alias: 'f', type: Number, defaultValue: undefined, description: 'Default file when a file is not found in the directory.' },
+	{ name: 'space', alias: 's', type: String, defaultValue: undefined, description: 'Space used for JSON.stringify.' },
+	{ name: 'help', alias: 'h' }
+];
+
+try {
+	const options = commandLineArgs(optionDefinitions);
+
+	if (options.help === true) {
+		throw Error('Need Help');
+	}
+
+	wigo(options);
+} catch (err) {
+	const usageSections = [
+		{
+			header: 'WIGO (What Is Going On)',
+			content: 'Web server that serves static files from a directory and outputs all requests to stdout. You can use it to pipe requests to other processes for analysis. This server is meant to help you during development or debugging, and is not intended for use in a production environment.'
+		},
+		{
+			header: 'Options',
+			optionList: optionDefinitions
+		}
+	];
+
+	const usage = commandLineUsage(usageSections);
+	console.log(usage);
+}
