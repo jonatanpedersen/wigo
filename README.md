@@ -2,6 +2,7 @@
 What Is Going On? Creates a http server on any port that serves static files from any path and outputs all requests (path, method, headers, body) to the console. Useful for debugging integrations.
 
 [![Build Status](https://travis-ci.org/jonatanpedersen/wigo.svg?branch=master)](https://travis-ci.org/jonatanpedersen/wigo)
+[![NPM Version](https://img.shields.io/npm/v/wigo.svg)](https://www.npmjs.com/package/wigo)
 
 ## Install
 ``` bash
