@@ -1,11 +1,10 @@
 # wigo
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/jonatanpedersen/wigo.svg)](https://greenkeeper.io/)
 What Is Going On? Creates a http server on any port that serves static files from any path and outputs all requests (path, method, headers, body) to the console. Useful for debugging integrations.
 
 [![Build Status](https://travis-ci.org/jonatanpedersen/wigo.svg?branch=master)](https://travis-ci.org/jonatanpedersen/wigo)
 [![NPM Version](https://img.shields.io/npm/v/wigo.svg)](https://www.npmjs.com/package/wigo)
 [![NSP Status](https://nodesecurity.io/orgs/jonatanpedersen/projects/c28b3818-69b8-4cf9-90f3-524a5e520692/badge)](https://nodesecurity.io/orgs/jonatanpedersen/projects/c28b3818-69b8-4cf9-90f3-524a5e520692)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jonatanpedersen/wigo.svg)](https://greenkeeper.io/)
 
 ## Install
 ``` bash
