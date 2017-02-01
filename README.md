@@ -3,6 +3,7 @@ What Is Going On? Creates a http server on any port that serves static files fro
 
 [![Build Status](https://travis-ci.org/jonatanpedersen/wigo.svg?branch=master)](https://travis-ci.org/jonatanpedersen/wigo)
 [![NPM Version](https://img.shields.io/npm/v/wigo.svg)](https://www.npmjs.com/package/wigo)
+[![NSP Status](https://nodesecurity.io/orgs/jonatanpedersen/projects/c28b3818-69b8-4cf9-90f3-524a5e520692/badge)](https://nodesecurity.io/orgs/jonatanpedersen/projects/c28b3818-69b8-4cf9-90f3-524a5e520692)
 
 ## Install
 ``` bash
