@@ -1,4 +1,6 @@
 # wigo
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jonatanpedersen/wigo.svg)](https://greenkeeper.io/)
 What Is Going On? Creates a http server on any port that serves static files from any path and outputs all requests (path, method, headers, body) to the console. Useful for debugging integrations.
 
 [![Build Status](https://travis-ci.org/jonatanpedersen/wigo.svg?branch=master)](https://travis-ci.org/jonatanpedersen/wigo)
