@@ -6,7 +6,7 @@ const commandLineUsage = require('command-line-usage');
 const optionDefinitions = [
 	{ name: 'port', alias: 'p', type: Number, defaultValue: 6187, defaultOption: true, description: 'Port to listen on.' },
 	{ name: 'dir', alias: 'd', type: String, defaultValue: './', description: 'Directory with files.' },
-	{ name: 'file', alias: 'f', type: Number, defaultValue: undefined, description: 'Default file when a file is not found in the directory.' },
+	{ name: 'file', alias: 'f', type: String, defaultValue: undefined, description: 'Default file when a file is not found in the directory.' },
 	{ name: 'space', alias: 's', type: String, defaultValue: undefined, description: 'Space used for JSON.stringify.' },
 	{ name: 'help', alias: 'h' }
 ];

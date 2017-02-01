@@ -24,7 +24,7 @@ Options
 
   -p, --port number    Port to listen on.
   -d, --dir string     Directory with files.
-  -f, --file number    Default file when a file is not found in the directory.
+  -f, --file string    Default file when a file is not found in the directory.
   -s, --space string   Space used for JSON.stringify.
   -h, --help
 
