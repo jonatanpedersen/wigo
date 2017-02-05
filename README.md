@@ -25,12 +25,11 @@ WIGO (What Is Going On)
 
 Options
 
-  -p, --port number    Port to listen on.
-  -d, --dir string     Directory with files.
+  -p, --port number    Port to listen on. (6187)
+  -d, --dir string     Directory with files. (./)
   -f, --file string    Default file when a file is not found in the directory.
   -s, --space string   Space used for JSON.stringify.
-  -h, --help
-
+  -S, --slashes        Rewrites urls without trailing slashes
 ```
 
 ## Licence
