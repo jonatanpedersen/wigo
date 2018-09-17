@@ -7,9 +7,10 @@ const optionDefinitions = [
 	{ name: 'port', alias: 'p', type: Number, defaultValue: 6187, defaultOption: true, description: 'Port to listen on. (6187)' },
 	{ name: 'dir', alias: 'd', type: String, defaultValue: './', description: 'Directory with files. (./)' },
 	{ name: 'file', alias: 'f', type: String, defaultValue: undefined, description: 'Default file when a file is not found in the directory.' },
-	{ name: 'space', alias: 's', type: String, defaultValue: undefined, description: 'Space used for JSON.stringify.' },
+	{ name: 'help', alias: 'h', type: Boolean },
+	{ name: 'quiet', alias: 'q', type: Boolean, description: 'Does not output anything' },
 	{ name: 'slashes', alias: 'S', type: Boolean, description: 'Rewrites urls without trailing slashes' },
-	{ name: 'help', alias: 'h', type: Boolean }
+	{ name: 'space', alias: 's', type: String, defaultValue: undefined, description: 'Space used for JSON.stringify.' }
 ];
 
 try {
