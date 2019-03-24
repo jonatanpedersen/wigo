@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jonatanpedersen/wigo#readme",
   "dependencies": {
     "body-parser": "1.18.3",
-    "command-line-args": "5.0.2",
+    "command-line-args": "5.1.0",
     "command-line-usage": "5.0.5",
     "compression": "1.7.3",
     "express": "4.16.3"
